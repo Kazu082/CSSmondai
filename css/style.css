@@ -1,18 +1,10 @@
-.practice__btn {
-  width: 200px;
-  padding: 10px 0;
-  color: white;
-  border-radius: 30px;
-  background: linear-gradient(90deg, #ff5800, #8b00be);
-  text-align: center;
-  box-shadow: 0 5px rgba(255, 0, 0, 0.2);
-  margin: 100px auto 0;
-  display: block;
+.flex__item {
+  display: flex;
+  justify-content: space-between;
 }
 
 .card {
-  width: 360px;
-  margin: 100px auto 0;
+  width: 30%;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -54,4 +46,9 @@
   display: inline-block;
   margin-left: 20px;
   color: #888888;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
 }
