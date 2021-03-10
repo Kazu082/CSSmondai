@@ -4,16 +4,41 @@
 
 ul {
   list-style: none;
-  float: right;
-}
-
-li {
-  float: left;
+  display: flex;
+  justify-content: flex-end;
 }
 
 li a {
   text-decoration: none;
   color: blue;
   font-weight: bold;
-  padding: 20px;
+  padding: 10px;
+  position: relative;
+  top: -45px;
+}
+
+.about {
+  position: relative;
+}
+
+.about__img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+}
+
+.subttl {
+  position: absolute;
+  top: 300px;
+  font-weight: lighter;
+  font-size: 60px;
+}
+
+.box {
+  margin: auto;
+  width: 1000px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  top: 100%;
 }
