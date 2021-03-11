@@ -29,12 +29,12 @@ li a {
   z-index: 20;
   position: absolute;
   right: 0;
-  top: 55px;
+  top: 150px;
 }
 
 .box {
   margin: auto;
-  width: 1400px;
+  width: 1300px;
   height: 200px;
   background-color: rgb(7, 7, 167);
   position: absolute;
