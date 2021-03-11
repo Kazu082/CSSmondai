@@ -1,5 +1,6 @@
 .ttl {
-  color: blue;
+  color: rgb(7, 7, 167);
+  font-size: 30px;
 }
 
 ul {
@@ -10,9 +11,10 @@ ul {
 
 li a {
   text-decoration: none;
-  color: blue;
+  color: rgb(7, 7, 167);
+  font-size: 20px;
   font-weight: bold;
-  padding: 10px;
+  padding: 15px;
   position: relative;
   top: -45px;
 }
@@ -23,22 +25,26 @@ li a {
 
 .about__img {
   margin: 0 0 0 auto;
-  display: block;
-  width: 50%;
-}
-
-.subttl {
+  width: 45%;
+  z-index: 20;
   position: absolute;
-  top: 300px;
-  font-weight: lighter;
-  font-size: 60px;
+  right: 0;
+  top: 55px;
 }
 
 .box {
   margin: auto;
-  width: 1000px;
-  height: 100px;
-  background-color: blue;
+  width: 1400px;
+  height: 200px;
+  background-color: rgb(7, 7, 167);
   position: absolute;
-  top: 100%;
+  top: 520px;
+  z-index: 10;
+}
+
+.subttl {
+  position: absolute;
+  top: 370px;
+  font-weight: lighter;
+  font-size: 70px;
 }
